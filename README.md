@@ -35,6 +35,12 @@ They split into two families:
 | [**competitive-teardown**](skill/competitive-teardown/) | Mapping a competitor for a real decision | Positioning/pricing/segment grid → the strategic gap where you can win |
 | [**metric-tree**](skill/metric-tree/) | A goal that's just "make the number go up" | The 2–3 highest-leverage levers + the current constraint, with the math |
 
+## 🪜 Agent engineering — *make automation cheaper and more reliable*
+
+| Skill | When you reach for it | What it gives you |
+|-------|----------------------|-------------------|
+| [**model-escalation**](skill/model-escalation/) | Cutting LLM/agent cost without losing reliability | Tiered fallback: cheap model first, escalate to a stronger one only on validated failure — with a runnable reference implementation + validator patterns |
+
 ## 🧩 Design principles
 
 Every skill in here follows the same shape, because it's what makes a thinking framework *usable* rather than inspirational:
@@ -60,7 +66,9 @@ thinking-skills/
     ├── meeting-to-decisions/SKILL.md
     ├── interview-synthesis/SKILL.md
     ├── competitive-teardown/SKILL.md
-    └── metric-tree/SKILL.md
+    ├── metric-tree/SKILL.md
+    └── model-escalation/        # + README, references/, scripts/, requirements.txt
+        └── SKILL.md
 ```
 
 ## 🤝 Contributing
